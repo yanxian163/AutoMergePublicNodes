@@ -1,4 +1,97 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-1...
+  network: ws
+  port: 2096
+  server: free-server.techsonic.dev
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: free-server.techsonic.dev
+    path: /free-server.techsonic.dev
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  network: ws
+  port: 80
+  server: 5.223.19.211
+  tls: false
+  type: vless
+  uuid: 4b8a0930-1c36-4efe-b4fe-21f9ad97905c
+  ws-opts:
+    path: /
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #2'
+  network: ws
+  port: 80
+  server: support.zoom.us
+  tls: false
+  type: vless
+  uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb
+  ws-opts:
+    headers:
+      Host: onhit.shalana.shop
+    path: /shalana
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #3'
+  network: ws
+  port: 80
+  server: 5.223.41.93
+  tls: false
+  type: vless
+  uuid: f2eada1b-fdec-48c6-8638-18ade32993d4
+  ws-opts:
+    path: /
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #4'
+  network: ws
+  port: 8443
+  server: 89.116.250.7
+  servername: speed.dulacloud.store
+  tls: true
+  type: vless
+  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
+  ws-opts:
+    headers:
+      Host: speed.dulacloud.store
+    path: /dula?Telegram-WangCai2fp=chrome
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #6'
+  port: 23070
+  server: 18.140.72.106
+  tls: false
+  type: vless
+  uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+  network: ws
+  port: 8880
+  server: 45.80.111.45
+  tls: false
+  type: vless
+  uuid: 5ffd914e-9594-4198-8327-145f096f8e4c
+  ws-opts:
+    headers:
+      Host: cnd.singapure.mygold.stream
+    path: /cdn/assets/stream
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #12'
+  network: ws
+  port: 2087
+  server: 172.67.65.53
+  servername: shanxp.dpdns.org
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: shanxp.dpdns.org
+    path: /fp=chrome
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇬[www.v2nodes.com] ss-SG-1581...
+  password: 9epp3o9ng8ej59uv
+  port: 14249
+  server: 45.128.12.20
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇸🇬 新加坡|@ripaojiedian
@@ -36,4 +129,36 @@ proxies:
   server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
+  type: trojan
+- name: '🇸🇬 新加坡 | SGP #3'
+  network: ws
+  port: 2082
+  server: 162.159.43.187
+  tls: false
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+    path: /?ed=2560security=tls
+- name: 🇸🇬 新加坡 | SGP 4
+  network: ws
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: jiangjc.pages.dev
+    path: /
+- name: '🇸🇬 新加坡 | SGP #4'
+  password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f
+  port: 8443
+  server: www.wto.org
+  skip-cert-verify: true
+  sni: jiangjc.pages.dev
   type: trojan

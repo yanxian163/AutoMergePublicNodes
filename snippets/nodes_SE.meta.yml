@@ -9,3 +9,47 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '🇸🇪[www.v2nodes.com] vless-SE-1... #11'
+  port: 9881
+  server: 176.108.249.189
+  tls: false
+  type: vless
+  uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇪[www.v2nodes.com] vless-SE-9...
+  network: ws
+  port: 8443
+  server: 144.31.243.120
+  servername: edgetunnel-4uw.pages.dev
+  tls: true
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /
+- name: '🇸🇪[www.v2nodes.com] vless-SE-9... #1'
+  network: ws
+  port: 8443
+  server: 144.31.243.120
+  servername: edgetunnel-4uw.pages.dev
+  tls: true
+  type: vless
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  ws-opts:
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+    path: /fp=chrome
+- name: '🇸🇪[www.v2nodes.com] vless-SE-9... #2'
+  network: ws
+  port: 2083
+  server: 103.177.249.40
+  servername: qcswhj2.edge-cache.danfeng4.xyz
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qcswhj2.edge-cache.danfeng4.xyz
+    path: /danfeng-pw8lj2-nzliwt-h23l-978coeve?ed=2560fp=chrome

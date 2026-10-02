@@ -1,4 +1,22 @@
 proxies:
+- cipher: aes-128-gcm
+  name: 🇺🇸[www.v2nodes.com] ss-US-1584...
+  password: 87e9cb62706b5cd08da95b8b423cb673
+  port: 16469
+  server: 103.214.111.162
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #1'
+  password: 2591a42af498878e47d881cd1ed1fa9d
+  port: 10676
+  server: 66.23.204.219
+  type: ss
+- cipher: aes-128-gcm
+  name: '🇺🇸[www.v2nodes.com] ss-US-1584... #2'
+  password: 62dd75ba944947d4ca983cf1679b3797
+  port: 15240
+  server: 173.234.25.90
+  type: ss
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian

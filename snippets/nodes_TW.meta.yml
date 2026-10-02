@@ -1,4 +1,53 @@
 proxies:
+- name: '🇹🇼[www.v2nodes.com] vless-TW-1... #5'
+  network: ws
+  port: 443
+  server: 60.248.219.54
+  servername: ty986gfazs.cainiaohub.xyz
+  tls: true
+  type: vless
+  uuid: 06e177f7-240d-4687-bd85-235505801a5e
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
+- client-fingerprint: chrome
+  name: 🇹🇼[www.v2nodes.com] vless-TW-3...
+  network: ws
+  port: 443
+  server: 151.242.189.162
+  servername: cf2us.3rr0r.online
+  tls: true
+  type: vless
+  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
+  ws-opts:
+    headers:
+      Host: cf2us.3rr0r.online
+    path: /proxyip=ProxyIP.TW.CMLiussss.Net
+- name: '🇹🇼[www.v2nodes.com] vless-TW-3... #1'
+  network: ws
+  port: 443
+  server: 43.213.230.249
+  servername: cf2us.3rr0r.online
+  tls: true
+  type: vless
+  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
+  ws-opts:
+    headers:
+      Host: cf2us.3rr0r.online
+    path: /proxyip=ProxyIP.TW.CMLiussss.Netfp=chrome
+- name: 🇹🇼[www.v2nodes.com] vless-TW-2...
+  network: ws
+  port: 443
+  server: 154.40.60.193
+  servername: cf2us.3rr0r.online
+  tls: true
+  type: vless
+  uuid: ab61daa1-b7fb-486e-8946-b1da9a444685
+  ws-opts:
+    headers:
+      Host: cf2us.3rr0r.online
+    path: /proxyip=ProxyIP.TW.CMLiussss.Netfp=chrome
 - name: 台湾|@ripaojiedian
   network: tcp
   password: AA885B42-133C-3828-FB69-E45105C06092
@@ -6,4 +55,36 @@ proxies:
   server: 7d0a2gz0-7a0c.aws-agent.net
   skip-cert-verify: true
   sni: m.ctrip.com
+  type: trojan
+- name: 🇹🇼 🇨🇳 台湾 | TWN
+  network: ws
+  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
+  port: 443
+  server: ttww11.bpca2026.top
+  skip-cert-verify: true
+  sni: ttww11.bpca2026.top
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ttww11.bpca2026.top
+    path: /images
+- alpn:
+  - h3
+  disable-sni: false
+  name: 🇹🇼 🇨🇳 台湾 | TWN 2
+  password: D7286728-678E-443B-B76B-B699654C66DD
+  port: 8080
+  reduce-rtt: false
+  request-timeout: 0
+  server: tw6.dexlos.com
+  skip-cert-verify: true
+  sni: tw6.dexlos.com
+  type: tuic
+  uuid: D7286728-678E-443B-B76B-B699654C66DD
+- name: '🇹🇼 🇨🇳 台湾 | TWN #1'
+  password: 9efd3f19-c7cb-4fa9-8d66-0598043597dc
+  port: 443
+  server: ttww11.bpca2026.top
+  skip-cert-verify: true
+  sni: ttww11.bpca2026.top
   type: trojan

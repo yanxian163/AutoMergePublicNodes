@@ -19,32 +19,99 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- name: 🌟14@oneclickvpnkeys
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8443
-  server: 77.74.123.103
-  sni: grape-test-italy.dynuddns.net
+- name: 🇩🇪185949 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|1.7MB/s
-  network: tcp
+- name: 🇩🇪[www.v2nodes.com] vless-DE-1...
+  network: ws
+  port: 80
+  server: 139.162.149.105
+  tls: false
+  type: vless
+  uuid: 5aae7d2d-c152-42cc-afb6-fe805fb94531
+  ws-opts:
+    path: /
+- client-fingerprint: random
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #3'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
-    short-id: '!!str 1fc709'
-  server: agroup.de1.ilovegairport.com
-  servername: eu-central-1.console.aws.amazon.com
+  server: 84.38.183.237
+  servername: ws.nightproducts.ru
   tls: true
   type: vless
-  udp: true
-  uuid: 129e26fe-cee2-4786-9261-b29668337829
+  uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
+  ws-opts:
+    path: /vless
+- alpn:
+  - http/1.1
+  encryption: none
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #9'
+  network: ws
+  port: 8443
+  server: www.large-files.info
+  servername: ''
+  tls: true
+  type: vless
+  uuid: 7c99dc89-bf49-45c9-acc5-e43f36657518
+  ws-opts:
+    path: /var/www/html/video/preview/download/i8o0la
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #11'
+  network: ws
+  port: 2083
+  server: 45.88.12.110
+  servername: mol.ultimagamest.com
+  tls: true
+  type: vless
+  uuid: 7e5b1e82-73db-429a-93b2-7839a0bf4dc0
+  ws-opts:
+    path: /vless-ws
+- client-fingerprint: chrome
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #12'
+  network: ws
+  port: 443
+  server: 5.45.111.195
+  servername: shephe.dpdns.org
+  tls: true
+  type: vless
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  ws-opts:
+    headers:
+      Host: shephe.dpdns.org
+    path: /
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: cdn.v1.AssetService
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #13'
+  network: grpc
+  port: 443
+  server: assets-de2.pleiades.codes
+  servername: assets-de2.pleiades.codes
+  tls: true
+  type: vless
+  uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
+- cipher: 2022-blake3-chacha20-poly1305
+  name: 🇩🇪[www.v2nodes.com] ss-DE-1585...
+  password: tGXsbUDisR28c/KS0RDOlgQS1gVT7UJ5Sf0/5QvMwR4=
+  port: 59924
+  server: 130.61.42.148
+  type: ss
 - client-fingerprint: chrome
   encryption: none
   name: 🇩🇪DE_2|1.7MB/s
   network: ws
-  port: '443'
+  port: 443
   server: 104.21.69.30
   servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
   tls: true
@@ -58,3 +125,50 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /?ed=2560
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #1'
+  password: 44xgqIHCG64I2kMxXzr4AexLc3TmyXX1oYY5C68s2ck=
+  port: 443
+  server: 5.160.198.244
+  type: ss
+  udp: true
+- auth: cf83b611-6cba-4535-adcb-8da06c6a9146
+  name: '🇩🇪 德国 | DEU #2'
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  port: 443
+  server: 144.31.212.253
+  skip-cert-verify: true
+  sni: vps155-edge.kermemehori.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: random
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: cdn.v1.DeService
+  name: 🇩🇪 德国 | DEU 3
+  network: grpc
+  port: 443
+  server: 159.194.244.172
+  servername: ger.g4m1.biz
+  tls: true
+  type: vless
+  udp: true
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
+- cipher: chacha20-ietf-poly1305
+  name: '🇩🇪 德国 | DEU #6'
+  password: hORsoC4STBD5wyGrss0VNw
+  port: 8882
+  server: tun2.musichubmel.ir
+  type: ss
+  udp: true
+- client-fingerprint: random
+  grpc-opts:
+    grpc-service-name: ''
+  name: '🇩🇪 德国 | DEU #3'
+  network: grpc
+  port: 443
+  server: 159.194.244.172
+  servername: ger.g4m1.biz
+  tls: true
+  type: vless
+  uuid: e0b9fb0f-1bbd-478b-9580-c2294778338b
